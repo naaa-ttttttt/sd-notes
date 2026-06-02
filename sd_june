@@ -1,0 +1,13 @@
+Feedback Loops: When a model's outputs are fed back into the system as new training data, risking a self-amplifying echo chamber.
+
+Adversarial Features: Calculations or inputs deliberately manipulated to trick a model into making mistakes while looking perfectly normal to humans.
+
+Drift: The drop in model accuracy over time because the real world has changed since the model was last trained. It splits into Data Drift (input data changes) and Concept Drift (the meaning of the data changes).
+
+Feature Engineering: The process of converting messy, raw data into clean, informative signals to maximize a model's predictive power and eliminate "garbage in, garbage out.
+
+"RAG (Retrieval-Augmented Generation): An architectural pattern that turns an LLM query into an "open-book exam" by retrieving external database context and appending it to the prompt before generation.
+
+One-Hot Encoding vs. Embeddings:One-Hot Encoding maps categories to massive, memory-wasting rows of $1$s and $0$s (sparse matrices) with zero relational meaning.Embeddings replace them by squeezing categories into low-dimensional, math-packed dense vectors that inherently capture semantic relationships (like $\text{King} - \text{Man} + \text{Woman} = \text{Queen}$).
+
+Two-Tower Recommendation Models: A design pattern that converts both users and items into separate embedding vectors and applies a dot product calculation to determine matches.
